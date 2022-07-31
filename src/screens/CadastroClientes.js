@@ -14,9 +14,7 @@ const CadastroClientes = ({ navigation }) => {
         <Input placeholder="Nome" w="75%" maxWidth="300px" />
       </Center>
       <Center>
-        <Button onPress={() => navigation.navigate('FiltroPrestadores')}>
-          Cadastrar
-        </Button>
+        <Button onPress={() => navigation.navigate('Lista')}>Cadastrar</Button>
       </Center>
     </VStack>
   );
